@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+button {
+    background-color: rgb(red, green, rgb(255, 102, 0));
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 900;
+    color:brown
+}
+
+#headingOne {
+    font-family: Arial, roboto, sans-serif;
+    color: wheat
+}
+
+#headingTwo {
+    color: yellow
+}
+
+.MyClass {
+    color: green
+}

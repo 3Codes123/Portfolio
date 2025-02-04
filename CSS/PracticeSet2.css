@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+* {
+    font-family: 'Arial';
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

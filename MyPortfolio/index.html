@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h2> Portfolio </h2>
+        </div>
+        <div class="header-right">
+            <p id="current-page">Home</p>
+            <a href="education.html">Education</a>
+            <p>Services</p>
+            <p>Portfolio</p>
+            <p>Contact</p>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="left-main">
+            <h2> Hello, It's Me </h2>
+            <h1>Harshvardhan Mhetre </h1>
+            <h2> And I'm a <span class="auto-type"></span> </h2>
+            <p> The Best Coder </p>
+            <i class="fa-brands fa-facebook-f"></i>
+
+            <div class="logo">
+                <div id="fb">
+                    <img src="fb-logo.png">
+                </div>
+
+                <div id="twitter">
+                    <img src="twitter-logo.png">
+                </div>
+
+                <div id="linkedin">
+                    <img src="linkedin-logo.png">
+                </div>
+
+                <div id="leetcode">
+                    <img src="leetcode-logo.png">
+                </div>
+            </div>
+
+            <div class="resume">
+                Download Resume
+            </div>
+        </div>
+
+        <div class="right-main">
+
+            <div class="square">
+                <div class='hack'> </div>   <!-- used a trick -->
+                <img src="photo.png">
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings : ["Frontend Developer", "Backend Developer", "Full Stack Developer"],
+            typeSpeed: 20,
+            backSpeed: 20,
+            loop: true
+        })
+    </script>
+
+</body>
+</html>

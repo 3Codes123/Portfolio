@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  /* Vertically centers all child elements */
+    height: 60px;
+    width: 100%;  /* Full width */
+    background-color: #131921;
+    padding: 0 15px;  /* Add padding to prevent elements from sticking to edges */
+    box-sizing: border-box;
+}
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 114px;
+}
+
+.logo {
+    background-image: url('Amazon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+
+}
+
+.navAddress {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 60px;   
+    margin-right: 20px;
+}
+
+
+
+.AddressFirst {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.AddressSecond {
+    font-size: 15px;
+    color: white;
+}
+
+.AddressLogo {
+    display: flex;
+    align-items: center;
+}
+
+.AddressLogo img {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.navSearch {
+    display: flex;
+}
+
+.navSearch select {
+    text-align: center;
+    height: 40px;
+    width: 52px;
+    border-radius: 10px 0 0 10px  ;
+}
+
+.navSearch input {
+    height: 40px;
+    width: 691px;
+}
+
+.navSearch i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 45px;
+    background-color: #febd69;
+    border-radius: 0 10px 10px 0;
+}
+
+.Searchlogo {
+    height: 40px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    img {
+        height: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5px;
+    }
+}
+
+
+.box-item {
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+        margin: 10px;
+
+        p1 {
+            font-size: 10px;
+            color: white;  
+        }
+
+        p2 {
+            font-size: 13px;
+            font-weight: bold;
+            color: white;
+        }
+}
+
+
+.cart {
+
+    display: flex;
+    align-items: baseline;
+
+    img {
+            height: 30px;
+        }
+
+    p {
+        font-size: 12px;
+        font-weight: bold;
+        color: white
+    }
+
+}
+
+.panel {
+    display: flex;
+    align-items: center;    
+    height: 40px;
+    background-color: #222f3d;
+}
+
+.panel-all {
+    width: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 14px;
+}
+
+.panel-ops {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 14px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    height: 220px;
+    width: 1300px;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.comment {  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 98%;
+    font-size: 14px;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+/*   Shop Section   */
+
+.shop-section {
+    width: 1300px;
+    display: flex;
+    justify-content:space-between; 
+    margin: 0 auto;
+}
+
+.shape {
+
+    height: 320px;
+    width: 320px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.shape img {
+    width: 290px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.shape h2 {
+    margin-top: 10px;
+    margin-left: 10px;  
+}
+
+.shape p {
+    margin-top: 10px ;
+    margin-left: 15px;
+}
