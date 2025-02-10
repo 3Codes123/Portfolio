@@ -38,12 +38,37 @@
 
         </div>
 
-        <div class="btn-field">
-            <a> Sign Up </a>
-            <a href="signin.html" class = 'main'> Sign In </a>
+            <div class="btn-field">
+                <button type="button" id="signupbtn"> Sign Up </button>
+                <button type="button" id="signinbtn" class="disable"> Sign In</button>
+            </div>
+
         </div>
 
     </div>
+
+    <script>
+        let signupbtn = document.getElementById("signupbtn")
+        let signinbtn = document.getElementById("signinbtn")
+        let title = document.getElementById("title")
+        let namefield = document.getElementById("namefield")
+
+        signinbtn.onclick = function (){
+            namefield.style.maxHeight = '0';
+            title.innerHTML = "Sign In"
+            signupbtn.classList.add("disable")
+            signinbtn.classList.remove("disable")
+        }
+
+        signupbtn.onclick = function (){
+            namefield.style.maxHeight = '65px';
+            title.innerHTML = "Sign Up"
+            signinbtn.classList.add("disable")
+            signupbtn.classList.remove("disable")
+        }
+
+    </script>
+
     
 </body>
 </html>
